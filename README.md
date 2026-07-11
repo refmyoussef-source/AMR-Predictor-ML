@@ -40,6 +40,7 @@ The model identified C-rich and G-rich motifs (e.g., `CACCCC`, `CCCCTG`) as the 
 
 ### 🌐 Web Application (Streamlit)
 This project includes a production-ready web interface where users can upload real *Klebsiella pneumoniae* FASTA files to get instant Meropenem resistance predictions.
+https://refmyoussef-source-amr-predictor-ml-app-t1fzud.streamlit.app/
 
 **To run the app locally:**
 1. Ensure all dependencies are installed (`pip install streamlit biopython joblib pandas xgboost`).
