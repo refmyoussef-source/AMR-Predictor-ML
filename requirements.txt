@@ -1,0 +1,7 @@
+streamlit
+biopython
+joblib
+pandas
+xgboost
+
+
