@@ -37,3 +37,12 @@ Our best-performing model is the **Cost-Sensitive XGBoost trained on all 4,096 f
 
 ### Biological Interpretability
 The model identified C-rich and G-rich motifs (e.g., `CACCCC`, `CCCCTG`) as the top predictive features. These motifs are strongly correlated with plasmid and transposon regions, which are the primary vehicles for AMR genes (like *blaKPC* or *blaNDM*) in *K. pneumoniae*.
+
+### 🌐 Web Application (Streamlit)
+This project includes a production-ready web interface where users can upload real *Klebsiella pneumoniae* FASTA files to get instant Meropenem resistance predictions.
+
+**To run the app locally:**
+1. Ensure all dependencies are installed (`pip install streamlit biopython joblib pandas xgboost`).
+2. Run the following command in your terminal:
+   ```bash
+   streamlit run app.py
